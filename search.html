@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search Student</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; margin: 40px; background-color: #fff3cd;">
+
+    <h2 style="color: #48502c;">🔍 Search Student</h2>
+
+    <label for="search" style="font-size: 16px;">Enter Student Name:</label>
+    <input type="text" id="search" placeholder=" " style="padding: 6px; margin-left: 10px;">
+
+    <button onclick="searchStudent()"
+        style="padding: 6px 12px; background-color: #A94438; color: white; border: none; border-radius: 5px; margin-left: 10px;">Search</button>
+
+    <p id="result" style="margin-top: 20px; font-weight: bold;"></p>
+
+    <br><br>
+    <a href="index.html" style="text-decoration: none; color:black;">⬅ Back to Home</a>
+
+    <script>
+        function searchStudent() {
+            const name = document.getElementById("search").value.toLowerCase();
+            const result = document.getElementById("result");
+
+            if (name === "hafsa") {
+                result.textContent = "✅ Student found: Hafsa | Department: AI | ID: 4231169";
+                result.style.color = "green";
+            } else {
+                result.textContent = "❌ Student not found.";
+                result.style.color = "red";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
