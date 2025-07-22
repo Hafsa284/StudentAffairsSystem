@@ -1,0 +1,6 @@
+﻿Build started at 6:54 PM...
+1>------ Build started: Project: 1to n, Configuration: Debug Any CPU ------
+1>Skipping analyzers to speed up the build. You can execute 'Build' or 'Rebuild' command to run analyzers.
+1>1to n -> C:\Users\elsae\source\repos\1to n\1to n\bin\Debug\net8.0\1to n.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 6:54 PM and took 12.992 seconds ==========
